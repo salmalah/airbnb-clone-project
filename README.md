@@ -108,6 +108,22 @@ The Airbnb Clone project requires the following key entities:
 **Relationships:**  
 - Each payment is linked to a booking.  
 - A booking can have one payment.  
+## Feature Breakdown
+
+### 1. User Management
+This feature allows users to register, log in, and manage their profiles securely. It ensures proper authentication and personalized user experiences.
+
+### 2. Property Management
+Users can create, update, and delete property listings. This feature enables hosts to manage their properties and showcase them to potential guests.
+
+### 3. Booking System
+The booking system allows users to reserve properties for specific dates. It manages availability, check-in/check-out details, and ensures smooth reservations.
+
+### 4. Payment Processing
+This feature handles transactions between users and hosts. It records payment details securely and ensures seamless financial operations.
+
+### 5. Review System
+Users can leave ratings and comments for properties they have stayed at. This helps maintain transparency and assists other users in making informed decisions.
 
 ## Team Roles
 
