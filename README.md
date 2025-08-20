@@ -34,4 +34,20 @@ By completing this project, learners will:
 - **API:** Django REST Framework, GraphQL  
 - **Containerization:** Docker  
 - **CI/CD:** GitHub Actions / Jenkins  
-- **Version Control:** Git / GitHub  
+- **Version Control:** Git / GitHub 
+## Team Roles
+
+### Backend Developer
+Responsible for implementing API endpoints, business logic, and handling server-side functionality. Ensures that data flows correctly between the database and frontend.
+
+### Database Administrator (DBA)
+Designs, implements, and maintains the database. Ensures data integrity, performance optimization, and proper indexing for efficient queries.
+
+### DevOps Engineer
+Handles deployment, CI/CD pipelines, server configuration, monitoring, and scaling of backend services.
+
+### QA Engineer
+Tests all functionalities of the backend to ensure quality, identifies bugs, and verifies that fixes are effective.
+
+### Project Manager (Optional)
+Oversees the project timeline, coordinates team members, and ensures milestones are met. 
