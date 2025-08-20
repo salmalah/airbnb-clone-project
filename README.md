@@ -35,6 +35,80 @@ By completing this project, learners will:
 - **Containerization:** Docker  
 - **CI/CD:** GitHub Actions / Jenkins  
 - **Version Control:** Git / GitHub 
+## Database Design
+
+The Airbnb Clone project requires the following key entities:
+
+### 1. Users
+**Fields:** 
+- id (Primary Key)  
+- name  
+- email  
+- password  
+- date_joined  
+
+**Relationships:**  
+- A user can create multiple properties.  
+- A user can have multiple bookings.  
+- A user can leave multiple reviews.  
+
+---
+
+### 2. Properties
+**Fields:**  
+- id (Primary Key)  
+- title  
+- description  
+- price_per_night  
+- owner_id (Foreign Key → Users.id)  
+
+**Relationships:**  
+- Each property belongs to a single user (owner).  
+- A property can have multiple bookings.  
+- A property can have multiple reviews.  
+
+---
+
+### 3. Bookings
+**Fields:**  
+- id (Primary Key)  
+- user_id (Foreign Key → Users.id)  
+- property_id (Foreign Key → Properties.id)  
+- start_date  
+- end_date  
+
+**Relationships:**  
+- Each booking belongs to one user.  
+- Each booking is for one property.  
+
+---
+
+### 4. Reviews
+**Fields:**  
+- id (Primary Key)  
+- user_id (Foreign Key → Users.id)  
+- property_id (Foreign Key → Properties.id)  
+- rating  
+- comment  
+
+**Relationships:**  
+- Each review is written by a user.  
+- Each review is for a specific property.  
+
+---
+
+### 5. Payments
+**Fields:**  
+- id (Primary Key)  
+- booking_id (Foreign Key → Bookings.id)  
+- amount  
+- payment_date  
+- status  
+
+**Relationships:**  
+- Each payment is linked to a booking.  
+- A booking can have one payment.  
+
 ## Team Roles
 
 ### Backend Developer
