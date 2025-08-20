@@ -124,6 +124,22 @@ This feature handles transactions between users and hosts. It records payment de
 
 ### 5. Review System
 Users can leave ratings and comments for properties they have stayed at. This helps maintain transparency and assists other users in making informed decisions.
+## API Security
+
+### 1. Authentication
+Users must log in with secure credentials to access the system. This ensures that only authorized users can interact with the application.
+
+### 2. Authorization
+Different roles (e.g., admin, host, guest) have access to specific resources and actions. This prevents unauthorized access to sensitive data and actions.
+
+### 3. Rate Limiting
+API requests are monitored to prevent abuse and denial-of-service attacks. This helps maintain service availability and performance.
+
+### 4. Data Protection
+Sensitive user data, such as passwords and payment information, are encrypted and stored securely. This prevents data breaches and builds user trust.
+
+### 5. Secure Transactions
+Payment operations use secure protocols and verification to protect financial information. This ensures that transactions are safe and reliable.
 
 ## Team Roles
 
