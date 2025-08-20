@@ -141,6 +141,20 @@ Sensitive user data, such as passwords and payment information, are encrypted an
 ### 5. Secure Transactions
 Payment operations use secure protocols and verification to protect financial information. This ensures that transactions are safe and reliable.
 
+## CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines are automated workflows that help streamline the development process. CI ensures that every new change (such as code commits) is automatically tested and validated, while CD ensures that validated changes are deployed quickly and reliably to production.
+
+Implementing a CI/CD pipeline is important because it:
+- Reduces human error by automating repetitive tasks.
+- Speeds up the release cycle by deploying changes faster.
+- Improves code quality through automated testing and integration.
+- Ensures consistent and reliable deployments.
+
+### Tools for CI/CD:
+- **GitHub Actions**: Automates testing and deployment directly from the GitHub repository.  
+- **Docker**: Provides containerization for consistent application environments across development, testing, and production.  
+- **Other CI/CD Platforms** (optional): Jenkins, GitLab CI, or CircleCI can also be integrated depending on team needs.  
 ## Team Roles
 
 ### Backend Developer
